@@ -22,3 +22,4 @@ DevOps Talk 可以以播客的形式，给相关从业者、兴趣爱好者提�
 
 * [Nebula Graph 星球](https://www.ximalaya.com/album/54212026)
 * [The Data Way](https://www.ximalaya.com/album/51321288)
+* [Go 夜聊](https://www.xiaoyuzhoufm.com/podcast/5fc99f18dee9c1e16dcf5f39)
