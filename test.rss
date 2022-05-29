@@ -5,16 +5,16 @@
     <link></link>
     <description>This is a DevOps talk</description>
     <generator>Open Podcast (https://github.com/opensource-f2f/open-podcasts)</generator>
-    <lastBuildDate>Sun, 29 May 2022 09:36:18 +0000</lastBuildDate>
-    <pubDate>Sun, 29 May 2022 09:36:18 +0000</pubDate>
+    <lastBuildDate>Sun, 29 May 2022 10:06:14 +0000</lastBuildDate>
+    <pubDate>Sun, 29 May 2022 10:06:14 +0000</pubDate>
     <item>
-      <guid>/showitems//download</guid>
+      <guid>https://linuxsuren-bot.github.io/devops-talk/releases/download/1/S02E02.mp3</guid>
       <title>测试音频1</title>
-      <link>/showitems//download</link>
+      <link>https://linuxsuren-bot.github.io/devops-talk/releases/download/1/S02E02.mp3</link>
       <description>测试音频1</description>
       <comments>notes</comments>
-      <pubDate>Sun, 29 May 2022 09:36:18 +0000</pubDate>
-      <enclosure url="/showitems//download" length="0" type="audio/x-m4a"></enclosure>
+      <pubDate>Sun, 29 May 2022 10:06:14 +0000</pubDate>
+      <enclosure url="https://linuxsuren-bot.github.io/devops-talk/releases/download/1/S02E02.mp3" length="0" type="audio/x-m4a"></enclosure>
     </item>
   </channel>
 </rss>
