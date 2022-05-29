@@ -1,7 +1,8 @@
-  title: DevOps Test
-  description: This is a DevOps talk
-  author: Rick
-  contact: 1450685+LinuxSuRen@users.noreply.github.com
-  image: "https://avatars.githubusercontent.com/u/1450685"
-  localStorage: github-release
-  
+title: DevOps Test
+description: This is a DevOps talk
+author: Rick
+contact: 1450685+LinuxSuRen@users.noreply.github.com
+image: "https://avatars.githubusercontent.com/u/1450685"
+categories:
+- Leisure
+localStorage: github-release
