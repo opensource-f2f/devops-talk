@@ -6,8 +6,8 @@
     <description>This is a DevOps talk</description>
     <category>Leisure</category>
     <generator>Open Podcast (https://github.com/opensource-f2f/open-podcasts)</generator>
-    <lastBuildDate>Sun, 29 May 2022 10:44:21 +0000</lastBuildDate>
-    <pubDate>Sun, 29 May 2022 10:44:21 +0000</pubDate>
+    <lastBuildDate>Sun, 29 May 2022 10:52:02 +0000</lastBuildDate>
+    <pubDate>Sun, 29 May 2022 10:52:02 +0000</pubDate>
     <image>
       <url>https://avatars.githubusercontent.com/u/1450685</url>
       <title></title>
@@ -20,7 +20,7 @@
       <link>https://github.com/linuxsuren-bot/devops-talk/releases/download/1/S02E02.mp3</link>
       <description>测试音频1</description>
       <comments>notes</comments>
-      <pubDate>Sun, 29 May 2022 10:44:21 +0000</pubDate>
+      <pubDate>Sun, 29 May 2022 10:52:02 +0000</pubDate>
       <enclosure url="https://github.com/linuxsuren-bot/devops-talk/releases/download/1/S02E02.mp3" length="0" type="audio/x-m4a"></enclosure>
       <itunes:image href="https://avatars.githubusercontent.com/u/1450685"></itunes:image>
     </item>
