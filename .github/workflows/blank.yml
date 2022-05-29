@@ -28,6 +28,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         uses: opensource-f2f/open-podcasts@master
+        with:
+          server: https://linuxsuren-bot.github.io/devops-talk
       - name: Update
         run: |
           git config --local user.email "361981269@qq.com"
