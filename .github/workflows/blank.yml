@@ -1,39 +1,25 @@
-# This is a basic workflow to help you get started with Actions
+name: Generate RSS
 
-name: CI
-
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
+      - name: Generate RSS
         uses: opensource-f2f/open-podcasts@master
         with:
-          server: https://github.com/linuxsuren-bot/devops-talk/
+          server: https://github.com/opensource-f2f/devops-talk/
       - name: Update
         run: |
-          git config --local user.email "361981269@qq.com"
+          git config --local user.email "1450685+LinuxSuRen@users.noreply.github.com"
           git config --local user.name "rick"
           git add . 
           git commit -m "Auto commit by rick's bot, ci skip"
-          git push https://linuxsuren-bot:${{ secrets.GH_SECRETS }}@github.com/linuxsuren-bot/devops-talk.git HEAD:master
+          git push https://linuxsuren:${{ secrets.GH_SECRETS }}@github.com/opensource-f2f/devops-talk.git HEAD:master
