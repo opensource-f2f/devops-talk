@@ -1,0 +1,27 @@
+name: Generate RSS
+
+on:
+  push:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Generate RSS
+        uses: opensource-f2f/open-podcasts@master
+        with:
+          server: https://github.com/opensource-f2f/devops-talk/
+      - name: Update readme
+        uses: linuxsuren/yaml-readme@v0.0.6
+        env:
+          GH_TOKEN: ${{ secrets.GH_SECRETS }}
+        with:
+          pattern: 'item-*.yaml'
+          username: linuxsuren
+          org: opensource-f2f
+          repo: devops-talk
