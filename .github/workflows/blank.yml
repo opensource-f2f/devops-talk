@@ -20,6 +20,6 @@ jobs:
         run: |
           git config --local user.email "1450685+LinuxSuRen@users.noreply.github.com"
           git config --local user.name "rick"
-          git add . 
+          git add -f index.rss
           git commit -m "Auto commit by rick's bot, ci skip"
           git push https://linuxsuren:${{ secrets.GH_SECRETS }}@github.com/opensource-f2f/devops-talk.git HEAD:master
