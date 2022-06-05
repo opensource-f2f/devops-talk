@@ -1,0 +1,25 @@
+name: Generate RSS
+
+on:
+  push:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Generate RSS
+        uses: opensource-f2f/open-podcasts@master
+        with:
+          server: https://github.com/opensource-f2f/devops-talk/
+      - name: Update
+        run: |
+          git config --local user.email "1450685+LinuxSuRen@users.noreply.github.com"
+          git config --local user.name "rick"
+          git add . 
+          git commit -m "Auto commit by rick's bot, ci skip"
+          git push https://linuxsuren:${{ secrets.GH_SECRETS }}@github.com/opensource-f2f/devops-talk.git HEAD:master
