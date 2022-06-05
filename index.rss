@@ -6,10 +6,10 @@
     <description>用声音传递 DevOps 业内信息</description>
     <category>Technology</category>
     <generator>Open Podcast (https://github.com/opensource-f2f/open-podcasts)</generator>
-    <lastBuildDate>Sun, 05 Jun 2022 03:10:24 +0000</lastBuildDate>
-    <pubDate>Sun, 05 Jun 2022 03:10:24 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Jun 2022 03:27:51 +0000</lastBuildDate>
+    <pubDate>Sun, 05 Jun 2022 03:27:51 +0000</pubDate>
     <image>
-      <url>https://avatars.githubusercontent.com/u/1450685</url>
+      <url>https://raw.githubusercontent.com/opensource-f2f/devops-talk/1/kongfu.png</url>
       <title></title>
       <link></link>
     </image>
@@ -20,9 +20,9 @@
       <link>https://github.com/opensource-f2f/devops-talk/releases/download/1/001.mp3</link>
       <description>* 00:20 小马哥自我介绍&#xA;* 01:25 DevOps 涉及到哪些工作岗位p&#xA;* 06:51 小马哥的 DevOps 从业经历&#xA;* 18:10 今天要“发版”的潜台词就是要加班、熬夜了&#xA;* 21:38 只有用户在用的功能才是有价值的&#xA;* 40:03 聊聊配置管理岗位&#xA;* 46:04 Git 的流行对 DevOps 的推广有很大的帮助作用&#xA;* 49:29 从事 DevOps 领域相关的工作，需要哪些技能呢&#xA;* 57:36 可能有人以为 Jenkins 还需要破解&#xA;* 67:26 如何在开源社区中提问&#xA;</description>
       <comments>notes</comments>
-      <pubDate>Sun, 05 Jun 2022 03:10:24 +0000</pubDate>
+      <pubDate>Sun, 05 Jun 2022 03:27:51 +0000</pubDate>
       <enclosure url="https://github.com/opensource-f2f/devops-talk/releases/download/1/001.mp3" length="0" type="audio/x-m4a"></enclosure>
-      <itunes:image href="https://avatars.githubusercontent.com/u/1450685"></itunes:image>
+      <itunes:image href="https://raw.githubusercontent.com/opensource-f2f/devops-talk/1/kongfu.png"></itunes:image>
     </item>
   </channel>
 </rss>
