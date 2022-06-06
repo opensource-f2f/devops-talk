@@ -2,6 +2,7 @@
 
 [![Rss](https://img.shields.io/badge/rss-F88900?style=flat&logo=rss&logoColor=white)](https://opensource-f2f.github.io/devops-talk/index.rss)
 ![GitHub All Releases](https://img.shields.io/github/downloads/opensource-f2f/devops-talk/total)
+[小宇宙](https://www.xiaoyuzhoufm.com/podcast/629c1f51b32f552f54730be5)
 
 播客作为一种音频节目，相比于视频，是一种无需同时占用你的视觉和听觉的灵活形式。我们可以在非常多的场合下，通过收听播客获取咨询、知识、观点，例如：
 
